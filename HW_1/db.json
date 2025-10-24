@@ -1,0 +1,39 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Интерстеллар",
+      "year": 2014,
+      "posterUrl": "https://ir.ozone.ru/s3/multimedia-p/6173994253.jpg",
+      "isFavorite": true
+    },
+    {
+      "id": "2",
+      "title": "Начало",
+      "year": 2010,
+      "posterUrl": "https://cdn.ananasposter.ru/image/cache/catalog/poster/film/99/1461-1000x830.jpg",
+      "isFavorite": true
+    },
+    {
+      "id": "3",
+      "title": "Побег из Шоушенка",
+      "year": 1994,
+      "posterUrl": "https://cdn.ananasposter.ru/image/cache/catalog/poster/film/80/24470-1000x830.jpg",
+      "isFavorite": true
+    },
+    {
+      "id": "4",
+      "title": "Матрица",
+      "year": 1999,
+      "posterUrl": "https://cdn.ananasposter.ru/image/cache/catalog/poster/pos24/27/88514-1000x830.jpg",
+      "isFavorite": true
+    },
+    {
+      "id": "5",
+      "title": "Криминальное чтиво",
+      "year": 1994,
+      "posterUrl": "https://vertex-art.ru/wp-content/uploads/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80%D1%8B/01w.jpg",
+      "isFavorite": false
+    }
+  ]
+}
