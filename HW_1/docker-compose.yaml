@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  frontend-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # ✅ ПЕРЕДАЧА ARGUMENT В СЕКЦИЮ BUILD
+      args:
+        - VITE_MOVIE_API_BASE_URL=${VITE_MOVIE_API_BASE_URL}
+        
+    container_name: hw1-app-container
+    
+    # Установка переменных окружения напрямую (для чистоты)
+    environment:
+      - VITE_MOVIE_API_BASE_URL=http://localhost:3004 
+      - JSON_SERVER_PORT=3004 
+      
+    ports:
+      - "3004:3004"
+      - "4173:4173"
