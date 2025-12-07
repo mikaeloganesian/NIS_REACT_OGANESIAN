@@ -1,0 +1,71 @@
+.card {
+  background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%);
+  border-radius: 12px;
+  padding: 20px;
+  border: 2px solid;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.avatar {
+  font-size: 64px;
+  text-align: center;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  user-select: none;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  margin: 0 0 8px 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.species {
+  margin: 0 0 12px 0;
+  color: #a0a0a0;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  color: #c0c0c0;
+  font-size: 14px;
+
+  strong {
+    color: #ffffff;
+    font-weight: 600;
+
+    &.mood {
+      text-transform: capitalize;
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
