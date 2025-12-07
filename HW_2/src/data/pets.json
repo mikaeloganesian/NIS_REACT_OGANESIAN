@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Alpha",
+    "species": "cyber-wolf",
+    "mood": "happy",
+    "energy": 100,
+    "level": 1,
+    "avatar": "🐺"
+  },
+  {
+    "id": "2",
+    "name": "Drax",
+    "species": "data-dragon",
+    "mood": "content",
+    "energy": 85,
+    "level": 2,
+    "avatar": "🐉"
+  },
+  {
+    "id": "3",
+    "name": "Quantum",
+    "species": "quantum-cat",
+    "mood": "neutral",
+    "energy": 70,
+    "level": 1,
+    "avatar": "🐱"
+  },
+  {
+    "id": "4",
+    "name": "Bear",
+    "species": "neural-bear",
+    "mood": "happy",
+    "energy": 90,
+    "level": 3,
+    "avatar": "🐻"
+  },
+  {
+    "id": "5",
+    "name": "Fox",
+    "species": "matrix-fox",
+    "mood": "content",
+    "energy": 80,
+    "level": 2,
+    "avatar": "🦊"
+  },
+  {
+    "id": "6",
+    "name": "Luna",
+    "species": "cyber-wolf",
+    "mood": "neutral",
+    "energy": 60,
+    "level": 1,
+    "avatar": "🐺"
+  },
+  {
+    "id": "7",
+    "name": "Spark",
+    "species": "data-dragon",
+    "mood": "happy",
+    "energy": 95,
+    "level": 4,
+    "avatar": "🐉"
+  },
+  {
+    "id": "8",
+    "name": "Nebula",
+    "species": "quantum-cat",
+    "mood": "content",
+    "energy": 75,
+    "level": 2,
+    "avatar": "🐱"
+  }
+]
