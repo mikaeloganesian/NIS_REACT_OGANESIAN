@@ -1,0 +1,84 @@
+{
+  "app": {
+    "title": "Admin",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "registerTitle": "Registration",
+    "username": "Username",
+    "password": "Password",
+    "submitLogin": "Sign in",
+    "submitRegister": "Create account",
+    "registerStub": "Registration is not available in this demo. DummyJSON does not support full signup.",
+    "backToLogin": "Back to sign in",
+    "validation": {
+      "required": "This field is required",
+      "minLength": "Must be at least {{min}} characters"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome, {{name}}.",
+    "hint": "Use the sidebar to manage products, your profile, and settings."
+  },
+  "products": {
+    "title": "Catalog",
+    "searchPlaceholder": "Search by title…",
+    "search": "Search",
+    "clear": "Clear",
+    "price": "Price",
+    "rating": "Rating",
+    "category": "Category",
+    "open": "Open",
+    "empty": "No products found.",
+    "page": "Page {{current}} of {{total}}",
+    "prev": "Previous",
+    "next": "Next",
+    "detailTitle": "Product",
+    "stock": "Stock",
+    "brand": "Brand",
+    "description": "Description"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "email": "Email",
+    "logout": "Sign out"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Interface language",
+    "localeEn": "English",
+    "localeRu": "Russian",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "catalogPageSize": "Catalog page size"
+  },
+  "logout": {
+    "title": "Signing out…"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Go to dashboard"
+  },
+  "errors": {
+    "generic": "Something went wrong. Try again.",
+    "network": "Network error. Check your connection.",
+    "boundary": "The application crashed. Please reload the page.",
+    "api": "Request failed"
+  },
+  "states": {
+    "loading": "Loading…",
+    "error": "Failed to load data",
+    "retry": "Retry"
+  }
+}

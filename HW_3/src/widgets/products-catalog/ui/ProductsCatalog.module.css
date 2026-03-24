@@ -1,0 +1,13 @@
+.errorText {
+  margin: 0;
+  color: var(--color-danger);
+}
+
+.errorActions {
+  margin-top: 0.75rem;
+}
+
+.emptyText {
+  margin: 0;
+  color: var(--color-muted);
+}
