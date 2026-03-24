@@ -1,0 +1,33 @@
+.shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  background: var(--color-bg);
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.title {
+  margin: 0 0 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.footer {
+  margin: 1.25rem 0 0;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.link {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

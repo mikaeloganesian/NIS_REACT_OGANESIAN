@@ -1,0 +1,84 @@
+{
+  "app": {
+    "title": "Admin",
+    "loading": "Загрузка…"
+  },
+  "nav": {
+    "dashboard": "Главная",
+    "products": "Товары",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "logout": "Выход"
+  },
+  "auth": {
+    "loginTitle": "Вход",
+    "registerTitle": "Регистрация",
+    "username": "Логин",
+    "password": "Пароль",
+    "submitLogin": "Войти",
+    "submitRegister": "Создать аккаунт",
+    "registerStub": "Регистрация недоступна в этом демо. DummyJSON не поддерживает полноценную регистрацию.",
+    "backToLogin": "Ко входу",
+    "validation": {
+      "required": "Обязательное поле",
+      "minLength": "Минимум {{min}} символов"
+    }
+  },
+  "dashboard": {
+    "title": "Панель",
+    "welcome": "Добро пожаловать, {{name}}.",
+    "hint": ""
+  },
+  "products": {
+    "title": "Каталог",
+    "searchPlaceholder": "Поиск по названию…",
+    "search": "Найти",
+    "clear": "Сбросить",
+    "price": "Цена",
+    "rating": "Рейтинг",
+    "category": "Категория",
+    "open": "Открыть",
+    "empty": "Товары не найдены.",
+    "page": "Страница {{current}} из {{total}}",
+    "prev": "Назад",
+    "next": "Вперёд",
+    "detailTitle": "Товар",
+    "stock": "Остаток",
+    "brand": "Бренд",
+    "description": "Описание"
+  },
+  "profile": {
+    "title": "Профиль",
+    "name": "Имя",
+    "email": "Email",
+    "logout": "Выйти"
+  },
+  "settings": {
+    "title": "Настройки",
+    "language": "Язык интерфейса",
+    "localeEn": "Английский",
+    "localeRu": "Русский",
+    "theme": "Тема",
+    "themeLight": "Светлая",
+    "themeDark": "Тёмная",
+    "catalogPageSize": "Размер страницы каталога"
+  },
+  "logout": {
+    "title": "Выход…"
+  },
+  "notFound": {
+    "title": "Страница не найдена",
+    "back": "На главную"
+  },
+  "errors": {
+    "generic": "Что-то пошло не так. Попробуйте снова.",
+    "network": "Ошибка сети. Проверьте подключение.",
+    "boundary": "Приложение упало. Перезагрузите страницу.",
+    "api": "Запрос не выполнен"
+  },
+  "states": {
+    "loading": "Загрузка…",
+    "error": "Не удалось загрузить данные",
+    "retry": "Повторить"
+  }
+}
